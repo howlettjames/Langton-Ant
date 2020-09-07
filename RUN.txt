@@ -1,0 +1,17 @@
+1. Mira, te vas a este link, para descargar el .h o más bien copiar el código y pegarlo en un archivo y lo guardas con el mismo nombre "olcConsoleGameEngineSDL.h" https://github.com/OneLoneCoder/videos/blob/master/olcConsoleGameEngineSDL.h
+
+2. Después que tienes el .h, ahora tienes que descargar el .bmp igual de github, ahorita te paso el link
+	https://github.com/OneLoneCoder/videos/blob/master/olcfont_consolas.bmp
+
+3. Ahora descarga el código .c que también está en el github
+	https://github.com/OneLoneCoder/videos/blob/master/OneLoneCoder_GameOfLife.cpp
+
+4. g++ thing.cpp -DUNICODE -I/usr/include/SDL2 -lSDL2 -lpthread -std=c++11
+
+5. Descargas el SDL2-2.0.10.zip, es el primer link que aparece en la pág
+	https://www.libsdl.org/download-2.0.php
+
+6. Una vez descargado lo descomprimes y abres el INSTALL.txt, Dentro te dice que hagas los comandos ./configure, make y make install.
+
+[10:15 PM, 9/11/2019] James: AHora sí, ya que tienes todo eso, compila y corre el .c
+[10:16 PM, 9/11/2019] James: Los tres primeros archivos que te dije los tienes que tener en una misma carpeta, no es necesario en el caso de SDL2
