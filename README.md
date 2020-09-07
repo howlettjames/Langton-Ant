@@ -1,6 +1,6 @@
 # Langton's Ant
 
-### This is an implementation in C++ language with several simulation options of [Langton's Ant](https://en.wikipedia.org/wiki/Langton%27s_ant) two-dimensional universal Turing machine invented by Chris Langton in 1986. Check more documentation of this work [here]().
+### This is an implementation in C++ language with several simulation options of [Langton's Ant](https://en.wikipedia.org/wiki/Langton%27s_ant) two-dimensional universal Turing machine invented by Chris Langton in 1986. Check more documentation of this work [here](https://github.com/howlettjames/Langton-Ant/blob/master/Docs/LANGTON_REPORT.pdf).
 
 ## Tech Stack
 * C++ language.
@@ -47,4 +47,4 @@ g++ langton.cpp -DUNICODE -I/usr/include/SDL2 -lSDL2 -lpthread -o langton.out
 
 ## Example of a simulation with rule B3/S23
 
-![Running the simulation](https://github.com/howlettjames/Game-Of-Life/blob/master/Test/test.png "Running the simulation")
+![Running the simulation](https://github.com/howlettjames/Langton-Ant/blob/master/Test/langton.png "Running the simulation")
