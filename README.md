@@ -45,6 +45,6 @@ g++ langton.cpp -DUNICODE -I/usr/include/SDL2 -lSDL2 -lpthread -o langton.out
 ./langton.out
 ```
 
-## Example of a simulation with rule B3/S23
+## Example of a simulation
 
 ![Running the simulation](https://github.com/howlettjames/Langton-Ant/blob/master/Test/langton.png "Running the simulation")
